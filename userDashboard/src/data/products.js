@@ -1,0 +1,246 @@
+export const products = [
+  {
+    id: 1,
+    name: "BLACK CORAL HEIST T-SHIRT",
+    price: 4495,
+    originalPrice: 4495,
+    category: "t-shirts",
+    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=600&fit=crop",
+    images: [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&h=600&fit=crop"
+    ],
+    description: "Premium streetwear t-shirt with unique coral heist design. Made from high-quality cotton for maximum comfort.",
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: ["Black"],
+    inStock: true,
+    featured: true,
+    newArrival: true
+  },
+  {
+    id: 2,
+    name: "WHITE SAIL SET T-SHIRT",
+    price: 4195,
+    originalPrice: 4195,
+    category: "t-shirts",
+    image: "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=500&h=600&fit=crop",
+    images: [
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&h=600&fit=crop"
+    ],
+    description: "Clean white t-shirt with sail set design. Perfect for casual streetwear styling.",
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: ["White"],
+    inStock: true,
+    featured: true,
+    newArrival: true
+  },
+  {
+    id: 3,
+    name: "BLU SAIL SET T-SHIRT",
+    price: 4195,
+    originalPrice: 4195,
+    category: "t-shirts",
+    image: "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&h=600&fit=crop",
+    images: [
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=500&h=600&fit=crop"
+    ],
+    description: "Blue variant of the popular sail set design. Comfortable and stylish streetwear essential.",
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: ["Blue"],
+    inStock: true,
+    featured: true,
+    newArrival: true
+  },
+  {
+    id: 4,
+    name: "IN PEARLS T-SHIRT",
+    price: 6495,
+    originalPrice: 6495,
+    category: "t-shirts",
+    image: "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=500&h=600&fit=crop",
+    images: [
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=500&h=600&fit=crop"
+    ],
+    description: "Luxury t-shirt with pearl-inspired design. Premium quality fabric with elegant styling.",
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: ["White", "Black"],
+    inStock: true,
+    featured: true,
+    newArrival: true
+  },
+  {
+    id: 5,
+    name: "BROWN TIGER T-SHIRT",
+    price: 4495,
+    originalPrice: 4495,
+    category: "t-shirts",
+    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=600&fit=crop",
+    images: [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&h=600&fit=crop"
+    ],
+    description: "Bold tiger design on premium cotton. Perfect for making a statement.",
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: ["Brown"],
+    inStock: true,
+    featured: false,
+    newArrival: false
+  },
+  {
+    id: 6,
+    name: "RED HUMMINGBIRD T-SHIRT",
+    price: 4495,
+    originalPrice: 4495,
+    category: "t-shirts",
+    image: "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=500&h=600&fit=crop",
+    images: [
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&h=600&fit=crop"
+    ],
+    description: "Vibrant red t-shirt featuring a beautiful hummingbird design.",
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: ["Red"],
+    inStock: true,
+    featured: false,
+    newArrival: false
+  },
+  {
+    id: 7,
+    name: "CLAW STOOP T-SHIRT",
+    price: 4495,
+    originalPrice: 4495,
+    category: "t-shirts",
+    image: "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&h=600&fit=crop",
+    images: [
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=500&h=600&fit=crop"
+    ],
+    description: "Edgy claw design perfect for streetwear enthusiasts.",
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: ["Black"],
+    inStock: true,
+    featured: false,
+    newArrival: false
+  },
+  {
+    id: 8,
+    name: "SKY BLU FAVOURITE CHILD T-SHIRT",
+    price: 3995,
+    originalPrice: 3995,
+    category: "t-shirts",
+    image: "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=500&h=600&fit=crop",
+    images: [
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=500&h=600&fit=crop"
+    ],
+    description: "Sky blue t-shirt with favorite child design. Comfortable and stylish.",
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: ["Sky Blue"],
+    inStock: true,
+    featured: false,
+    newArrival: false
+  },
+  {
+    id: 9,
+    name: "BLACK EAGLE CRY T-SHIRT",
+    price: 4995,
+    originalPrice: 4995,
+    category: "t-shirts",
+    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=600&fit=crop",
+    images: [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&h=600&fit=crop"
+    ],
+    description: "Premium black t-shirt with eagle cry design. High-quality fabric and printing.",
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: ["Black"],
+    inStock: true,
+    featured: false,
+    newArrival: false
+  },
+  {
+    id: 10,
+    name: "BLACK STICKER SLAP T-SHIRT",
+    price: 4495,
+    originalPrice: 4495,
+    category: "t-shirts",
+    image: "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=500&h=600&fit=crop",
+    images: [
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&h=600&fit=crop"
+    ],
+    description: "Urban sticker slap design on premium black t-shirt.",
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: ["Black"],
+    inStock: true,
+    featured: false,
+    newArrival: false
+  },
+  {
+    id: 11,
+    name: "GREEN HUMMINGBIRD T-SHIRT",
+    price: 4495,
+    originalPrice: 4495,
+    category: "t-shirts",
+    image: "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&h=600&fit=crop",
+    images: [
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=500&h=600&fit=crop"
+    ],
+    description: "Green variant of the popular hummingbird design.",
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: ["Green"],
+    inStock: true,
+    featured: false,
+    newArrival: false
+  },
+  {
+    id: 12,
+    name: "PURPLE APEX WILD T-SHIRT",
+    price: 4195,
+    originalPrice: 4195,
+    category: "t-shirts",
+    image: "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=500&h=600&fit=crop",
+    images: [
+      "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&h=600&fit=crop",
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=500&h=600&fit=crop"
+    ],
+    description: "Purple apex wild design for the bold and adventurous.",
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: ["Purple"],
+    inStock: true,
+    featured: false,
+    newArrival: false
+  }
+];
+
+export const categories = [
+  { name: "Top Wear", slug: "top-wear" },
+  { name: "Bottom Wear", slug: "bottom-wear" },
+  { name: "Accessories", slug: "accessories" },
+  { name: "T-Shirts", slug: "t-shirts" },
+  { name: "Hoodies", slug: "hoodies" },
+  { name: "Jackets", slug: "jackets" },
+  { name: "Cargos", slug: "cargos" },
+  { name: "Jeans", slug: "jeans" },
+  { name: "Pants", slug: "pants" },
+  { name: "Shorts", slug: "shorts" },
+  { name: "Polos", slug: "polos" },
+  { name: "Shirts", slug: "shirts" },
+  { name: "Sweatshirts", slug: "sweatshirts" }
+]; 
